@@ -5,10 +5,10 @@ class Pgpx < Formula
   license "Mozilla Public License Version 2.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/netsucket-darwin-arm64"
+    url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/pgpx-darwin-arm64"
     sha256 "99e7501b9483cc8def9e269c63cb084ad1950ef8def5266058d282888be40fd2"
   else
-    url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/netsucket-darwin-amd64"
+    url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/pgpx-darwin-amd64"
     sha256 "6139f6efed73fd8fd88bb03f96dafc3d3fe59e7bcfca1a047035bda7474b52c5"
   end
 
