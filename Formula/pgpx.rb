@@ -2,7 +2,7 @@ class Pgpx < Formula
   desc "PostgreSQL proxy that enables RDS IAM authentication on Postgres client apps"
   homepage "https://github.com/kurianoff/pgpx"
   version "0.0.5"
-  license "Mozilla Public License Version 2.0"
+  license "MPL-2.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/pgpx-darwin-arm64"
