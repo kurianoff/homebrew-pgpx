@@ -1,5 +1,5 @@
 class Pgpx < Formula
-  desc "Single-backend PostgreSQL proxy that enables RDS IAM authentication on Postgres client apps"
+  desc "PostgreSQL proxy that enables RDS IAM authentication on Postgres client apps"
   homepage "https://github.com/kurianoff/pgpx"
   version "0.0.5"
   license "Mozilla Public License Version 2.0"
