@@ -1,15 +1,15 @@
 class Pgpx < Formula
   desc "PostgreSQL proxy that enables RDS IAM authentication on Postgres client apps"
   homepage "https://github.com/kurianoff/pgpx"
-  version "0.0.5"
+  version "0.0.6"
   license "MPL-2.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/pgpx-darwin-arm64"
-    sha256 "574aa95e51231d7e284d99184fdf5cc033d4714981f4f1b6a16b25e97905e184"
+    sha256 "8487c8ba4488627c9ace59abc7fc27e43025b8c10251b0fb402e61fdf5bc3b78"
   else
     url "https://github.com/kurianoff/pgpx/releases/download/v#{version}/pgpx-darwin-amd64"
-    sha256 "2d85acac9a0ebcab30ca84062bbe53a774b2f55ee39091233d7e5864dfb14799"
+    sha256 "71e3ec49ce4689eb2a21ce29894f3db85671fcb4c5724d3527f69d5db0d9903f"
   end
 
   def install
